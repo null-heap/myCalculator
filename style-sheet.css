@@ -1,0 +1,49 @@
+button{
+    height: 50px;
+    width: 50px;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 5px;
+
+}
+#buttons{
+margin: 0;
+display: flex;
+flex-direction: column;
+}
+
+#display{
+    font-size: 26px;
+    height: 50px;
+    width: 270px;
+    border: 5px solid black;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+#enter{
+    width: 110px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.column{
+    display: flex;
+}
+
+#Calculator{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto ;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+}
